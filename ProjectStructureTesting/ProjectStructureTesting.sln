@@ -6,6 +6,10 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{6D2F7129-EB44-4A81-995F-8388E6463B26}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{A0A82A38-52F0-49F3-8676-F7ED71A8EF06}"
+	ProjectSection(SolutionItems) = preProject
+		AssemblyDependencies1.dgml = AssemblyDependencies1.dgml
+		CodeMap1.dgml = CodeMap1.dgml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{53B4E2C1-D37C-41FC-B7BA-1F0469666E3D}"
 EndProject
