@@ -40,6 +40,8 @@ namespace ClassLibrary1{
 		/// 註冊帳號
 		/// </summary>
 		public string WebId { get; set; }
+
+		public DateTime LastLogin { get;set; }
 	}
 
 

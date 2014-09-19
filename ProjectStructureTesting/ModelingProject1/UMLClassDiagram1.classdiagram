@@ -1,20 +1,109 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="c89461a8-cf31-4b65-8adc-bacdc56e9ee0" name="UMLClassDiagram1" linkedPackageId="b08b7f44-4d59-43af-acad-b95b82b0ef2c" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="3addf16d-accf-419a-917d-57caa28420cb">
-      <profileInstance Id="bd535c3e-da3f-479c-9d99-71cc71587b15" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="998bbb41-ef7d-4a14-8e6b-d4cc043dd83b">
-      <profileInstance Id="6b136748-0674-42ef-bdbd-f351a41149f7" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="c89461a8-cf31-4b65-8adc-bacdc56e9ee0" name="UMLClassDiagram1" linkedPackageId="b08b7f44-4d59-43af-acad-b95b82b0ef2c" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5d027a57-69ee-4ee4-8c8c-562fcea3c1b9" name="Class1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="06626596-6a84-4d76-bcff-ca9157bae71c" />
+        <ownedAttributesInternal>
+          <property Id="9eb8247b-5591-4606-abb7-bb14fa089001" name="Attribute1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8cff3aa0-f206-4e20-b31e-380b9926dae3" />
+          </property>
+          <property Id="1637caa2-5ecf-4e8b-a5a1-34e8666151a4" name="Attribute2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3683ace1-aeba-4f1d-bd65-0f684e148b10" />
+          </property>
+          <property Id="5ff2dcfb-1006-4ccd-b04d-0c3ab902bae5" name="Attribute3" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9533f184-bd91-439a-9e9c-6760afd986a0" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="73917a7b-b577-4608-a0ff-ce1e1cc48bb7" name="Operation1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2d6d1ada-b393-4a8e-93d5-b46d94124ec9" />
+          </operation>
+          <operation Id="dec1375a-683a-4e7d-b462-4a06069278e4" name="Operation2" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="36c8aa4b-f537-4bda-b3fc-28bdb65d3565" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="9f400f02-4205-4c1d-9aa4-1f4ce07d61b0" name="Interface1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a8ef5400-a173-41d4-bda1-1164b85f3437" />
+        <ownedAttributes>
+          <property Id="29ef43ce-b5db-478e-b1d6-613c14eac007" name="Attribute1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="02ac5fbc-fe89-4fc0-9df0-c03f40aa4730" />
+          </property>
+          <property Id="fdd23b9e-6952-4676-afaa-5541fa69eae2" name="Attribute2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="26d94827-7ded-48c6-9e70-41a225b33bbd" />
+          </property>
+        </ownedAttributes>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3f585daa-c85c-4c26-a172-2fe30b03ff0b" name="Class2" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3bb2f81f-ccfa-43ef-96f2-55354de4f64b" />
+        <ownedAttributesInternal>
+          <property Id="d0c80d4a-0cec-43ec-8169-b5b53db9667b" name="Attribute1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="efeeefc4-3415-4200-b717-d32ab0830c87" />
+          </property>
+          <property Id="84f38b84-a236-46da-833d-03bbbfaecdbf" name="Attribute2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="830a2c28-a27a-4746-88b5-271dc47706f2" />
+          </property>
+          <property Id="83df7022-edef-46f5-b71c-44f616be50c5" name="Attribute3" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="262e1f4d-d34b-4e24-935f-f86b20ca2288" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="e6d63736-21a6-49ce-9b92-535e152c2596" name="Operation1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b819d414-c520-43f8-bc1b-e9332ee88a10" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e025d8a5-2e5f-421f-9336-b4f3af5a82c6" name="Class3" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8d224135-4a96-483d-99aa-de71e87fd9b0" />
+        <ownedAttributesInternal>
+          <property Id="f66c6e3f-da3d-48f8-b4f0-874e0cdb59cf" name="Attribute1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="41d8e0e5-f94f-4a71-8761-d008a6487fac" />
+          </property>
+          <property Id="99b84bb0-e132-4229-8e88-5e946968492d" name="Attribute2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9f9812c9-c317-49ce-8df7-f2d1160f0b2a" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="a8457a64-0a7e-4b01-8945-5b0a13dca4c1" name="Interface11" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a7287854-5d2e-44c0-a102-5fd25466dcfd" />
+        <ownedAttributes>
+          <property Id="2b1b7457-44f8-4088-bc4c-c015ec948aec" name="Attribute1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="81e531b6-2ac4-4674-b079-853e7baddc95" />
+          </property>
+          <property Id="a22861d7-22d1-497e-9343-59a10f14787d" name="Attribute2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="09629b16-4271-4ba9-a888-e68aea0b758f" />
+          </property>
+          <property Id="4684ec95-5f55-4763-b0fe-f6c879861f1a" name="Attribute3" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="31001004-414c-4ff4-88a7-38863ce448d3" />
+          </property>
+        </ownedAttributes>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
   <package Id="b08b7f44-4d59-43af-acad-b95b82b0ef2c" name="ModelingProject1">
     <elementDefinition Id="74b00982-446e-4348-bc4f-d218a15cf85d" />
+    <profileInstances>
+      <packageHasProfileInstances Id="3addf16d-accf-419a-917d-57caa28420cb">
+        <profileInstance Id="bd535c3e-da3f-479c-9d99-71cc71587b15" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="998bbb41-ef7d-4a14-8e6b-d4cc043dd83b">
+        <profileInstance Id="6b136748-0674-42ef-bdbd-f351a41149f7" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>
