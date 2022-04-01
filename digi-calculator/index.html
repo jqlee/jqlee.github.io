@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=0.5, maximum-scale=3.0" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="container p-3">
+    <div class="row">
+      <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="label-exp">exp</span>
+          <input id="nExp" class="form-control value-trigger" value="DE1737F8">
+          <button id="btnTest" class="btn btn-secondary">test</button>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="label-lvOffset">lvOffset</span>
+          <input id="nLvOffset" class="form-control value-trigger" value="29B8">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="label-lv001">lv001</span>
+          <input id="nLv001" class="form-control  text-success text-right" readonly placeholder="lv001">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="label-catCount">catCount</span>
+          <input id="nCatCount" class="form-control value-trigger" value="655">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="label-own001">own001</span>
+          <input id="nOwn001" class="form-control text-success text-right" readonly placeholder="own001">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="label-status001">status001</span>
+          <input id="nStatus001" class="form-control text-success text-right" readonly placeholder="status001">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="label-cateNumber">target cate</span>
+          <input id="nCateNumber" class="form-control value-trigger" type="number" pattern="[0-9]+" value="2" min="1" max="1000">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="lblOwn000">own000</span>
+          <input id="nOwn000" class="form-control  text-danger text-right" readonly placeholder="own000">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="lblLv000">lv000</span>
+          <input id="nLv000" class="form-control  text-danger text-right" readonly placeholder="lv000">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="lblStatus000">status000</span>
+          <input id="nStatus000" class="form-control  text-danger text-right" readonly placeholder="status000">
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="label-itemOffset">castleOffset</span>
+          <input id="nCastleOffset" class="form-control text-secondary" value="4724">
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text">castle attack</span>
+          <input id="nCastle01" class="form-control text-danger text-right" readonly placeholder="castle01">
+          <span class="input-group-text">(4位)</span>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text">castle range</span>
+          <input id="nCastle02" class="form-control text-danger text-right" readonly placeholder="castle02">
+          <span class="input-group-text">(9組)</span>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="label-itemOffset">itemOffset</span>
+          <input id="nItemOffset" class="form-control text-secondary" value="4908">
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="label-items">items</span>
+          <input id="nItem01" class="form-control text-danger text-right" readonly placeholder="item01">
+          <span class="input-group-text">(6組)</span>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="label-drinkOffset">drinkOffset</span>
+          <input id="nDrinkOffset" class="form-control text-secondary" value="-2856C8">
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="label-items">drinks</span>
+          <input id="nDrink01" class="form-control text-danger text-right" readonly placeholder="drink01">
+          <span class="input-group-text">(3組)</span>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="label-stoneOffset">stoneOffset</span>
+          <input id="nStoneOffset" class="form-control text-secondary" value="2856A0">
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="label-stones">stones</span>
+          <input id="nStone01" class="form-control text-danger text-right" readonly placeholder="stone01">
+          <span class="input-group-text">(6組)</span>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      </div>
+
+
+
+
+
+  </div>
+  </div>
+  
+  <script>
+    $(function(){
+      
+      function runAll(){
+      console.log('runALL')
+      const exp = $('#nExp').val();
+      const lvOffset = $('#nLvOffset').val();
+      const catCount = $('#nCatCount').val();
+      
+      const lv001 = hexPlus(exp, lvOffset);
+      console.log((catCount*4).toString(16))
+      const own001 = hexMinus(lv001, (catCount*4).toString(16));
+      const status001 = hexPlus(lv001, ((catCount-1)*8).toString(16));
+      $('#nLv001').val(lv001);
+      $('#nOwn001').val(own001);
+      $('#nStatus001').val(status001);
+
+      const cateNumber = +$('#nCateNumber').val();
+      
+      const diffHexOwn = ((cateNumber-1)*4).toString(16);
+      const diffHexLV = ((cateNumber-1)*8).toString(16);
+      const diffHexStatus = ((cateNumber-1)*4).toString(16);
+      const lv000 = hexPlus(diffHexLV,lv001);
+      const own000 = hexPlus(diffHexOwn,own001);
+      const status000 = hexPlus(diffHexStatus,status001);
+      $('#nLv000').val(lv000);
+      $('#nOwn000').val(own000);
+      $('#nStatus000').val(status000);
+
+      const catNumberText = cateNumber.toString().padStart(3,'0');
+      console.log('catNumberText',catNumberText)
+      $('#lblOwn000').text('own'+catNumberText)
+      $('#lblLv000').text('lv'+catNumberText)
+      $('#lblStatus000').text('status'+catNumberText)
+      
+      const itemOffset = $('#nItemOffset').val();
+      const drinkOffset = $('#nDrinkOffset').val();
+      const stoneOffset = $('#nStoneOffset').val();
+      const castleOffset = $('#nCastleOffset').val();
+      
+      const item01 = hexPlus(exp,itemOffset);
+      const drink01 = hexPlus(exp,drinkOffset);
+      const stone01 = hexPlus(exp,stoneOffset);
+      const castle01 = hexPlus(exp,castleOffset);
+      const castle02 = hexPlus(castle01,(4*4).toString(16));
+      $('#nItem01').val(item01)
+      $('#nDrink01').val(drink01)
+      $('#nStone01').val(stone01)
+      $('#nCastle01').val(castle01)
+      $('#nCastle02').val(castle02)
+    }
+    runAll();
+      
+    function hexPlus(a,b){
+      return (hex2dec(a)+hex2dec(b)).toString(16).toUpperCase();
+    }
+    function hexMinus(a,b){
+      return (hex2dec(a)-hex2dec(b)).toString(16).toUpperCase();
+    }
+    function hex2dec(a){
+      let negative = 1;
+      if (a.startsWith('-')){
+        negative = -1;
+        a = a.substr(1);
+      }
+      return negative*parseInt(`0x${a}`,16)
+    }
+    
+    $('#btnTest').on('click',runAll);
+    $('.value-trigger').on('change keyup', runAll);
+
+    $('#btnDec2Hex').on('click', function(){
+      const dec = +$('#nDec').val();
+      $('#nHex').val(dec.toString(16).toUpperCase())
+    });
+    $('#btnHex2Dec').on('click', function(){
+      const hex = Number("0x"+$('#nHex').val());
+      $('#nDec').val(hex.toString(10).toUpperCase())
+    });
+  });
+  </script>
+</body>
+</html>
